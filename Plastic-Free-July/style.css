@@ -303,7 +303,7 @@ h1, h2, h3, h4 {
 }
 
 /* ==================================
-   COMPETITION DETAILS (WHITE THEME)
+   COMPETITION DETAILS (WHITE THEME - SMALL)
    ================================== */
 
 .comp-slide {
@@ -316,50 +316,49 @@ h1, h2, h3, h4 {
 }
 
 .panel-header {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .panel-header h2 {
-    font-size: 4.5rem;
-    margin-bottom: 15px;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 .details-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin-bottom: 60px;
+    gap: 30px;
+    margin-bottom: 50px;
 }
 
 .detail-card {
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     background: var(--bg-alt);
-    border-radius: 20px;
+    border-radius: 16px;
     transition: transform 0.3s ease;
 }
 
 .detail-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 .detail-card i {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     color: var(--primary-blue);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .detail-card h4 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
 }
 
 .detail-card p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: var(--text-muted);
-    line-height: 1.4;
 }
 
 .email-link {
@@ -370,51 +369,51 @@ h1, h2, h3, h4 {
 
 .prizes-section {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .prizes-section h3 {
-    font-size: 3rem;
-    margin-bottom: 40px;
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
 
 .prizes-container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 30px;
+    gap: 20px;
 }
 
 .prize {
     background: var(--bg-alt);
-    border-radius: 20px 20px 0 0;
-    padding: 30px;
-    width: 220px;
+    border-radius: 16px 16px 0 0;
+    padding: 20px;
+    width: 150px;
     text-align: center;
-    border: 2px solid #e0e0e0;
+    border: 1px solid #e0e0e0;
     border-bottom: none;
 }
 
 .prize.gold {
-    height: 250px;
+    height: 180px;
     border-color: #d4af37;
-    background: linear-gradient(to top, rgba(212, 175, 55, 0.15), rgba(0,0,0,0));
+    background: linear-gradient(to top, rgba(212, 175, 55, 0.1), rgba(0,0,0,0));
 }
 .prize.silver {
-    height: 200px;
+    height: 140px;
     border-color: #a0a0a0;
-    background: linear-gradient(to top, rgba(160, 160, 160, 0.15), rgba(0,0,0,0));
+    background: linear-gradient(to top, rgba(160, 160, 160, 0.1), rgba(0,0,0,0));
 }
 .prize.bronze {
-    height: 160px;
+    height: 110px;
     border-color: #cd7f32;
-    background: linear-gradient(to top, rgba(205, 127, 50, 0.15), rgba(0,0,0,0));
+    background: linear-gradient(to top, rgba(205, 127, 50, 0.1), rgba(0,0,0,0));
 }
 
 .medal {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 
@@ -423,21 +422,21 @@ h1, h2, h3, h4 {
 .bronze .medal { color: #cd7f32; }
 
 .amount {
-    font-weight: 800;
-    font-size: 2.2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
     color: var(--text-dark);
 }
 
 .judging-criteria h3 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 
 .criteria-bar {
     display: flex;
-    height: 70px;
-    border-radius: 35px;
+    height: 50px;
+    border-radius: 25px;
     overflow: hidden;
     background: var(--bg-alt);
 }
@@ -446,8 +445,8 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
-    font-size: 1.3rem;
+    font-weight: 600;
+    font-size: 0.9rem;
     color: #fff;
     text-align: center;
 }
